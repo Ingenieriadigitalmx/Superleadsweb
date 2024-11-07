@@ -1,15 +1,20 @@
-import React from 'react'
-import { FormattedMessage } from 'react-intl';
-import Hero from '../components/Hero/Hero';
+import React from "react";
+// import { FormattedMessage } from "react-intl";
+import Prices from "../components/Prices";
+import Headersection from "../components/Headersection";
+import Howto from "../components/Howto";
+import FastPage from "../components/FastPage";
 
 function Home() {
-    return (
-      <div>
-        <h1><FormattedMessage id="welcome" /></h1>
-        <Hero />
-        {/* ... other content */}
-      </div>
-    );
-  }
+  return (
+    <div className="allpage">
+      {/* <Headersection />
+      <Howto />
+      <Prices /> */
+      }
+      <FastPage/>
+    </div>
+  );
+}
 
-export default Home
+export default Home;

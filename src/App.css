@@ -36,3 +36,1660 @@
     transform: rotate(360deg);
   }
 }
+
+.allpage {
+  background-color: #f3f7ff;
+}
+
+.Headersection-sl {
+  background-color: #f3f7ff;
+  min-height: 77vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Headersection-sl .Header-containerinner {
+  max-width: 1086px;
+  width: 75%;
+  min-height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sl-img {
+  max-width: 100%;
+}
+
+.Headersection-sl .Header-containerinner .alignment-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.buton-double {
+  display: grid;
+  width: 110%;
+  margin: 1.8em 0 1.5em;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+}
+
+.Headersection-sl
+  .Header-containerinner
+  .alignment-containers
+  .buton-double
+  .buttons {
+  color: #3d12e1;
+  text-decoration: none;
+  padding: 13px 38px;
+  border: solid 2px #3d12e1;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Headersection-sl
+  .Header-containerinner
+  .alignment-containers
+  .buton-double
+  .buttons:hover {
+  transform: scale(1.05);
+}
+
+.Headersection-sl
+  .Header-containerinner
+  .alignment-containers
+  .buton-double
+  .button-left {
+  background-color: #ffffff;
+}
+.Headersection-sl
+  .Header-containerinner
+  .alignment-containers
+  .buton-double
+  .button-right {
+  background-color: #3d12e1;
+  color: #ffffff;
+}
+.contact-section .Button-section-contact .button-right {
+  background-color: #3d12e1;
+  color: #ffffff;
+}
+.contact-section .Button-section-contact .button-right:hover {
+  transform: scale(1.05);
+}
+.contact-section .Button-section-contact .buttons {
+  padding: 13px 38px;
+  border: solid 2px #3d12e1;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Headersection-sl
+  .Header-containerinner
+  .alignment-containers
+  .buton-double
+  .buttons
+  img {
+  max-height: 25px;
+  margin-left: 15px;
+}
+.Headersection-sl .sharkthank {
+  max-width: 23%;
+  margin-top: 0.5em;
+}
+.contact-section {
+  display: flex;
+  padding: 8vh 0;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contact-section .colors {
+  min-height: 18px;
+  width: 25%;
+  left: 0;
+  background-image: url(../src/assets/line.png);
+}
+.contact-section .content-section {
+  max-width: 1255px;
+  width: 87.15%;
+  margin: auto;
+}
+.contact-section .content-section h1 {
+  color: #3d3d3d;
+  max-width: 75%;
+  font-size: 2.5em;
+}
+.contact-section .content-section .next-level {
+  font-size: 1.2em;
+  line-height: 1.1em;
+  margin: 0;
+}
+.contact-section .content-section .next-level-2 {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 1.1em;
+  margin: 0.5em 0 0em;
+}
+.contact-section .Frame-calendar {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  min-height: 900px;
+}
+
+.contact-section .Button-section-contact {
+  width: 51.6%;
+  max-width: 744px;
+  margin: 0em auto 0;
+}
+
+.contact-section .Button-section-contact h3 {
+  text-align: center;
+  color: #263238;
+  font-weight: 800;
+  margin-bottom: 2.5em;
+  font-size: 1.3em;
+}
+.contact-section .Button-section-contact .buttonss {
+  max-width: 62%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footer-container {
+  display: flex;
+  width: 100%;
+  background-image: url("../src/assets/footerbackground.jpg");
+  padding: 40px 0 23px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-container .a-link {
+  max-width: 20%;
+}
+.footer-container .a-link img {
+  width: 100%;
+}
+.footer-container .text-p {
+  max-width: 40%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-container .buton-double {
+  display: grid;
+  width: 46%;
+  margin: 1.8em 0 1.5em;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+}
+
+.footer-container .buton-double .buttons img {
+  max-width: 30px;
+  margin-left: 5px;
+}
+
+.footer-container .buton-double .buttons {
+  padding: 13px 38px;
+  border: solid 2px #3d12e1;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.footer-container .buton-double .buttons:hover {
+  transform: scale(1.05);
+}
+
+.footer-container .buton-double .button-left {
+  background-color: #ffffff;
+  color: #3d12e1;
+}
+.footer-container .buton-double .button-right {
+  background-color: #3d12e1;
+  color: #ffffff;
+}
+
+.creation-content {
+  width: 86.66%;
+  max-width: 1248px;
+  color: #ffffff;
+  border-top: solid 1px #ffffff;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.creation-content .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.creation-content .right img {
+  max-height: 25px;
+  margin-left: 10px;
+}
+.Headersection-sl .Header-containerinner .alignment-containers h1 {
+  color: #3d3d3d;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+}
+
+.Headersection-sl .Header-containerinner .alignment-containers h2 {
+  color: #4d5fc7;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  width: 120%;
+}
+
+.menu-superleads-edu {
+  display: flex;
+  cursor: pointer;
+}
+
+.Whitebutton {
+  margin: 0.6em auto 0;
+  padding: 17px 70px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.Whitebutton .container .text {
+  color: #4d5fc7;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: 700;
+  margin: 0;
+}
+.Whitebutton:hover {
+  transform: scale(1.05);
+}
+.Greenbutton {
+  margin: 0.6em auto 0;
+  padding: 17px 17px;
+  border-radius: 30px;
+  background-color: #ddf7ee;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: #4d5fc7 solid 1.5px;
+}
+.Greenbutton .container .text {
+  color: #4d5fc7;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 0.95em;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0;
+}
+.Greenbutton:hover {
+  transform: scale(1.05);
+}
+.Purplebutton {
+  margin: 0.6em auto 0;
+  padding: 17px 17px;
+  border-radius: 30px;
+  background-color: #3d12e1;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: #3d12e1 solid 1.5px;
+}
+.Purplebutton .container .text {
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 0.95em;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0;
+}
+.Purplebutton:hover {
+  transform: scale(1.05);
+}
+.Precios .text-purple {
+  color: #3d12e1;
+  font-weight: 300;
+  width: 86%;
+  max-width: 1221px;
+  margin: 2em auto 1em;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.9em;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.two-buttons {
+  width: 45%;
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.Howto-container {
+  width: 85%;
+  max-width: 1225px;
+  margin: 0 auto;
+  background-color: #f3f7ff;
+  padding: 78px 7.5%;
+}
+
+.Howto-container .Top-title {
+  display: flex;
+  flex-direction: column;
+  max-width: 777px;
+  width: 54%;
+}
+
+.Howto-container .Top-title img {
+  max-width: 50%;
+}
+
+.Howto-container .Top-title h2 {
+  font-size: 1.8em;
+  color: #3d3d3d;
+  margin: 0 auto 0.8em;
+}
+.Howto-container .How-content {
+  min-width: 100%;
+  min-height: 10vh;
+}
+.Howto-container .How-content img {
+  max-width: 100%;
+}
+.Howto-container .How-content .img-top {
+  margin: 3em 0 1.5em;
+  display: grid;
+  grid-template-columns: 24% 38% 30%;
+  position: relative;
+  gap: 4%;
+}
+.Howto-container .How-content .img-bottom .img-web {
+  display: flex;
+}
+.Howto-container .How-content .img-bottom .img-mobile {
+  display: none;
+}
+.Howto-container .anuncios-premium {
+  font-size: 1.2em;
+  line-height: 1.1em;
+  margin: 1em 0;
+  color: #3d3d3d;
+  display: none;
+}
+.Howto-container .anuncios-premium2 {
+  display: block;
+  font-size: 1.7em;
+  line-height: 1.1em;
+  margin: 1em 0;
+  color: #888888;
+  position: absolute;
+  top: 40%;
+  left: -15%;
+  transform: rotate(270deg);
+}
+.Howto-container .buttons {
+  background-color: #3d12e1;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 13px 25px;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 35%;
+  margin: 5em auto 0;
+}
+.Howto-container .buttons img {
+  max-height: 30px;
+  margin-left: 10px;
+}
+.Howto-container .buttons:hover {
+  transform: scale(1.05);
+}
+.Precios {
+  width: 100%;
+  padding: 50px 0;
+  margin: 0;
+  min-height: 10vh;
+}
+
+.Title-container {
+  width: 100%;
+}
+.Title-container .titlebanner {
+  width: 13.2%;
+  background-image: url("../src/assets/line.png");
+  max-width: 190px;
+  background-size: cover;
+  min-height: 18px;
+}
+.Title-container .title-top {
+  margin: 0.2em auto 0.1em 8.3%;
+  color: #3d3d3d;
+  font-size: 38px;
+  font-family: "Red Hat Display", sans-serif;
+}
+.Precios .container-green {
+  width: 48%;
+  padding: 24px 0;
+  max-width: 686px;
+  background-color: #ddf7ee;
+  margin: 3.5vh auto 2vh;
+  border-radius: 31.3px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Precios .container-green .texto h3 {
+  color: #545454;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  line-height: 1.2em;
+}
+.Precios .container-green .texto .List-elements .icon-check {
+  max-width: 100%;
+}
+.Precios .container-green .texto .List-elements {
+  width: 90%;
+  display: grid;
+  gap: 4%;
+  grid-template-columns: 10% 86%;
+  row-gap: 0;
+  align-items: center;
+}
+.Precios .container-green .texto .List-elements p {
+  font-size: 24px;
+  color: #262626;
+  line-height: 1.3em;
+  margin: 0.5em 0;
+}
+.Precios .container-green .imagenfa {
+  max-width: 85%;
+  margin: 0 auto;
+}
+.Precios .container-green .imagenfa-1 {
+  display: none;
+}
+.Precios .container-green .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Flechascontainer {
+  width: 95%;
+  max-width: 1376px;
+  min-height: 150px;
+  background-image: url("../src/assets/backflechas.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5em auto 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-gradient {
+  font-size: 2em;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 800;
+  background: linear-gradient(
+    to right,
+    #3d12e1 0%,
+    #4d5fc7 30%,
+    #9ed9b6 90%,
+    #dcf7ee 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 60%;
+  margin: 0 auto 0.5em;
+  text-align: center;
+}
+.Crm-component {
+  padding: 30px 0;
+  background-color: #ebefff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 70vh;
+  width: 92%;
+  padding-left: 8%;
+  position: relative;
+  left: 0;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.Crm-component .title-crm {
+  max-width: 50%;
+  font-size: 35px;
+  font-family: "Red Hat Display", sans-serif;
+  color: #000025;
+  line-height: 43px;
+  margin-bottom: 0;
+}
+.Crm-component .title-crm span {
+  text-decoration: underline;
+}
+.Crm-component .subtitle-crm {
+  margin-top: 0.5em;
+  max-width: 50%;
+  font-size: 25px;
+  font-family: "Red Hat Display", sans-serif;
+  color: #000025;
+  line-height: 30px;
+}
+.Crm-component .subtitle-crm-2 {
+  margin-top: 1.2em;
+  max-width: 50%;
+  font-size: 20px;
+  font-family: "Red Hat Display", sans-serif;
+  color: #000025;
+  line-height: 30px;
+  margin-bottom: 0.2em;
+}
+.Crm-component .subtitle-crm-3 {
+  margin-top: 1.2em;
+  max-width: 50%;
+  font-size: 18px;
+  font-family: "Red Hat Display", sans-serif;
+  color: #000025;
+  line-height: 30px;
+  margin-bottom: 0.2em;
+  font-weight: 400;
+}
+.Crm-component .img-phone {
+  position: absolute;
+  max-width: 65%;
+  right: 0;
+  max-height: 100%;
+}
+.Crm-component .img-prospects {
+  position: absolute;
+  max-width: 34%;
+  right: 6%;
+  top: 3em;
+  max-height: 100%;
+}
+.Crm-component .img-incluye {
+  max-width: 411px;
+}
+.Crm-component .ul-crm {
+  margin: 0.2em 0 0.2em 0;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  flex-direction: row;
+  margin-left: -2em;
+}
+.Crm-component .ul-crm li {
+  margin-left: 2.3em;
+  width: auto;
+  font-size: 18px;
+  font-family: "Red Hat Display", sans-serif;
+  color: #000025;
+}
+.personalized-position {
+  position: absolute;
+  right: 17%;
+  bottom: 3em;
+}
+
+@media (min-width: 600px) {
+  .css-19r6kue-MuiContainer-root {
+    padding: 1vh 6% !important;
+    background-color: #f6f8ff;
+  }
+}
+
+@media (max-width: 800px) {
+  .Crm-component .title-crm {
+    max-width: 96%;
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .Crm-component .subtitle-crm {
+    max-width: 80%;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .Crm-component .img-incluye {
+    max-width: 90%;
+  }
+  .Crm-component .subtitle-crm-2 {
+    margin-top: 1em;
+    font-size: 17px;
+  }
+  .Crm-component .ul-crm {
+    margin: 0.2em 0 0.2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    flex-direction: row;
+    margin-left: -3em;
+  }
+  .Crm-component .ul-crm li {
+    font-size: 12px;
+  }
+
+  .Precios {
+    padding: 1em 0 1em;
+  }
+  .Flechascontainer {
+    background-image: url("../src/assets/Flechasmobile.png");
+    padding: 10vh 0;
+    margin: 2em auto 0;
+  }
+  .text-gradient {
+    font-size: 1.5em;
+  }
+  .Headersection-sl .Header-containerinner {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2em 0 2em;
+    width: 90%;
+  }
+  .Headersection-sl .Header-containerinner .alignment-containers {
+    max-width: 98%;
+  }
+  .buton-double {
+    width: 100%;
+  }
+  .Headersection-sl
+    .Header-containerinner
+    .alignment-containers
+    .buton-double
+    .buttons {
+    padding: 10px 18px;
+    font-size: 12px;
+  }
+  .Headersection-sl .sharkthank {
+    margin-bottom: 2em;
+  }
+}
+.purplebutton2 {
+  background-color: #585dcc;
+  margin: 1em auto 0em 0;
+  padding: 11px 17px;
+}
+.purplebutton2 .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.purplebutton2 .container img {
+  max-width: 24px;
+  margin-right: 10px;
+}
+@media (max-width: 800px) {
+  .Purplebutton {
+    padding: 17px 10px;
+  }
+  .Greenbutton {
+    padding: 17px 10px;
+  }
+  .Purplebutton .container .text {
+    font-size: 0.7em;
+  }
+  .Greenbutton .container .text {
+    font-size: 0.7em;
+  }
+  .Precios .text-purple {
+    font-size: 1.3em;
+  }
+  .two-buttons {
+    width: 93%;
+    gap: 4%;
+  }
+  .footer-container .a-link {
+    max-width: 50%;
+  }
+  .footer-container .text-p {
+    max-width: 75%;
+    margin-top: 2em;
+  }
+  .footer-container .buton-double {
+    width: 85%;
+    gap: 4%;
+  }
+  .footer-container .buton-double .buttons {
+    padding: 8px 18px;
+    font-size: 12px;
+  }
+  .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    box-shadow: none !important;
+  }
+  .creation-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    text-align: center;
+    max-width: 80%;
+  }
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionStatic.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    z-index: 1200;
+    position: relative;
+  }
+  .Headersection-sl .Header-containerinner .alignment-containers h2 {
+    font-size: 23px;
+    width: 100%;
+  }
+  .Headersection-sl .Header-containerinner .alignment-containers h1 {
+    font-size: 24px;
+  }
+  .contact-section {
+    padding: 5vh 0;
+  }
+  .contact-section .colors {
+    width: 45%;
+  }
+  .contact-section .content-section h1 {
+    color: #3d3d3d;
+    max-width: 95%;
+    font-size: 1.8em;
+  }
+  .contact-section .content-section .next-level {
+    font-size: 1em;
+    line-height: 1.3em;
+  }
+  .contact-section .content-section .next-level-2 {
+    font-size: 1em;
+    margin: 1em 0 1.5em;
+    position: relative;
+  }
+  .contact-section .Frame-calendar {
+    min-height: 3000px;
+  }
+  .contact-section .Button-section-contact h3 {
+    font-size: 1em;
+  }
+  .contact-section .Button-section-contact {
+    width: 95%;
+  }
+  .contact-section .Button-section-contact .buttonss {
+    max-width: 43%;
+    padding: 10px 18px;
+    margin: 0.5em auto;
+    font-size: 12px;
+  }
+  .Button-section-contact .buttonss img {
+    max-width: 25px;
+  }
+}
+
+@media (max-width: 1325px) {
+  .Howto-container .anuncios-premium2 {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .Precios .container-green .imagenfa {
+    display: none;
+  }
+  .Precios .container-green .imagenfa-1 {
+    display: inline;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .Precios .container-green {
+    width: 93%;
+    margin: 2vh auto 2vh;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Howto-container .How-content .img-bottom .img-web {
+    display: none;
+  }
+  .Howto-container .How-content .img-bottom .img-mobile {
+    display: inline;
+  }
+  .Howto-container {
+    padding: 50px 0%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .Howto-container .Top-title {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .Howto-container .Top-title h2 {
+    text-align: center;
+    font-size: 1.7em;
+  }
+  .Howto-container .Top-title img {
+    max-width: 80%;
+  }
+  .gIGmrL {
+    max-width: 165px !important;
+    margin-left: 35px !important;
+    margin-top: 7px !important;
+  }
+  .Howto-container .How-content {
+    min-width: 88%;
+    width: 88%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2em auto 2em;
+  }
+  .Howto-container .How-content .img-top {
+    margin: 0em 0 0em;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3%;
+    width: 225%;
+  }
+  .Howto-container .anuncios-premium {
+    font-size: 1.2em;
+    line-height: 1.1em;
+    margin: 1em 0 0.5em;
+    color: #3d3d3d;
+    display: inline;
+  }
+  .Howto-container .anuncios-premium-2 {
+    display: none;
+  }
+  .Howto-container .buttons {
+    width: 83%;
+    max-width: 83%;
+    font-size: 15px;
+    margin: 3em auto 0;
+  }
+  .Title-container .titlebanner {
+    width: 35.2%;
+  }
+  .Title-container .title-top {
+    font-size: 30px;
+  }
+  .Precios .container-green .texto h3 {
+    margin-top: 1em;
+    font-size: 27px;
+  }
+  .Precios .container-green .texto .List-elements p {
+    font-size: 18px;
+  }
+  .purplebutton2 {
+    background-color: #585dcc;
+    margin: 1em auto 1em 0;
+    padding: 10px 15px;
+  }
+  .purplebutton2 .container img {
+    max-width: 15px;
+  }
+  .Crm-component .subtitle-crm-3 {
+    max-width: 93%;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .Crm-component .img-phone {
+    position: relative;
+    max-width: 108%;
+    right: 8%;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+  .personalized-position {
+    position: absolute;
+    bottom: 2em;
+    max-width: 50%;
+    left: 6%;
+  }
+  .Crm-component {
+    padding-bottom: 0;
+  }
+  .Crm-component .img-prospects {
+    position: absolute;
+    max-width: 84%;
+    bottom: 34vh;
+    right: 1em;
+    top: auto;
+  }
+}
+
+.fast-container {
+  width: 100%;
+  background-color: #f6f8ff;
+}
+.fast-container .element-width {
+  max-width: 1320px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 87%;
+  margin: 0 auto;
+  padding: 1em 0 0em;
+}
+.fast-container .first .img {
+  width: 100%;
+}
+.fast-container .sp1 {
+  position: absolute;
+  top: 1.5em;
+  right: 1em;
+}
+
+.fast-container .sp2 {
+  position: absolute;
+  bottom: 2.5em;
+  left: 1em;
+}
+
+.fast-container .btn-purple {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px 48px;
+  background-color: #3d12e1;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fast-container .btn-purple:hover {
+  transform: scale(1.05);
+}
+.fast-container .btn-green {
+  text-decoration: none;
+  padding: 15px 68px;
+  color: #3d12e1;
+  background-color: #9ed9b6;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fast-container .btn-green:hover {
+  transform: scale(1.05);
+}
+
+.fast-container .second {
+  background-image: url("../src/assets/purplebackground.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-position: bottom;
+  padding-top: 4em;
+}
+
+.fast-container .spp22 {
+  bottom: 0.5em;
+}
+
+.fast-container .second .container-text-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fast-container .second .container-text-button .nts {
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 47px;
+  text-align: center;
+  margin-top: 3em;
+  max-width: 80%;
+  margin-bottom: 0.8em;
+}
+.fast-container .tsm3 {
+  margin-top: 3em;
+  background-image: url(../src/assets/esme.png);
+}
+
+.fast-container .second .comput {
+  max-width: 95%;
+}
+.fast-container .second .comput2 {
+  max-width: 100%;
+}
+
+.fast-container .second .container-text-button .nts2 {
+  font-size: 45px;
+  margin-top: 2em;
+}
+
+.fast-container .tsm4 {
+  margin-top: 2em;
+  grid-template-columns: 35% 65%;
+  background-image: url(../src/assets/back3.png);
+}
+.fast-container .second .tsxcf2 .nts {
+  text-align: end;
+  margin-right: 0em;
+}
+
+.fast-container .second .btnsmd {
+  margin: 1em 5em 1em auto;
+}
+.fast-container .razones {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.fast-container .razones-3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+
+  margin-bottom: 3em;
+}
+.fast-container .razones .img-razones {
+  max-width: 100%;
+}
+.fast-container .razones .container-razones {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.fast-container .razones .container-razones .button-right {
+  background-color: #3d12e1;
+  color: #ffffff;
+  max-width: 50%;
+  color: #3d12e1;
+  text-decoration: none;
+  padding: 13px 20px;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fast-container .razones .container-razones .button-right img {
+  max-height: 30px;
+}
+.fast-container .razones .container-razones .button-right {
+  background-color: #3d12e1;
+  color: #ffffff;
+}
+.fast-container .razones .container-razones .button-right:hover {
+  transform: scale(1.05);
+}
+
+.fast-container .razones .container-razones .texst {
+  font-size: 1.8em;
+  color: #000025;
+  font-family: "Red Hat Display", sans-serif;
+  margin-top: 2em;
+}
+.fast-container .waranted-growth {
+  max-width: 70%;
+  margin-bottom: 0.4em;
+}
+.fast-container .grid-threis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0em;
+  margin: 2em 0;
+}
+.fast-container .trc-s {
+  max-width: 100%;
+  z-index: 1;
+  position: relative;
+}
+.fast-container .positw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 50%;
+  z-index: 0;
+}
+.fast-container .positw-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 70%;
+  z-index: 0;
+}
+.fast-container .positw-3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 80%;
+}
+
+.fast-container .grid-threis .discvimg {
+  padding: 1.5em;
+  position: relative;
+}
+
+.fast-container .parrafo-one {
+  color: #000025;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.3em;
+}
+
+.fast-container .razones .container-razones .titlesssss {
+  font-size: 3.4em;
+  color: #3d3d3d;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0em;
+  font-weight: 700;
+  max-width: 70%;
+}
+
+.fast-container .razones .container-razones .insted {
+  font-size: 1.5em;
+  color: #3d3d3d;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 1em 0em 1em;
+  font-weight: 600;
+  max-width: 90%;
+}
+.fast-container .whatslis .content-whatsi .titlesssss {
+  font-size: 3.3em;
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0em;
+  line-height: 1.2em;
+  font-weight: 700;
+  max-width: 30%;
+}
+.fast-container .whatslis .content-whatsi .insted {
+  font-size: 1.3em;
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 1.7em 0em 1.5em;
+  font-weight: 600;
+  max-width: 35%;
+  text-align: justify;
+}
+.fast-container .whatslis .content-whatsi .ing .ingenieria {
+  max-width: 20%;
+  flex-direction: column;
+  margin-top: 1em;
+}
+.fast-container .whatslis .content-whatsi .mktg-ed {
+  max-width: 17%;
+  margin-top: 1em;
+}
+.fast-container .razones .container-razones .rznpr {
+  max-width: 70%;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+.fast-container .whatslis {
+  background-image: url(../src/assets/sulqh.png);
+  position: relative;
+  padding-left: 6%;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  margin: 3em auto;
+  max-width: 1440px;
+}
+.fast-container .whatslis .content-whatsi {
+  display: flex;
+  flex-direction: column;
+}
+.fast-container .whatslis .computrs {
+  width: 72%;
+  max-width: 1040px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.fast-container .tools {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
+  max-width: 1440px;
+  margin: 5em auto;
+}
+.fast-container .tools .titlesssss {
+  font-size: 3.3em;
+  color: #3d3d3d;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0em auto 0.1em 0;
+  line-height: 1.2em;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.fast-container .tools .gradient {
+  margin-left: -35%;
+  margin-top: -1.8em;
+  z-index: 0;
+}
+
+.fast-container .tools .btn-purple {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 17px 48px;
+  background-color: #3d12e1;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5em 0 1em 0;
+  width: 35%;
+}
+.fast-container .tools .flexed-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 23%;
+}
+
+.fast-container .tools .btn-green {
+  margin: 0.5em 0 1em 0;
+  text-decoration: none;
+  padding: 17px 48px;
+  color: #3d12e1;
+  background-color: #9ed9b6;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+.fast-container .tools .Herramientas {
+  max-width: 90%;
+}
+.fast-container .bigger {
+  background-image: url("../src/assets/Testimonials.png");
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fast-container .testimonials {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 52% 38%;
+  gap: 10%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.fast-container .testimonials .left {
+  position: relative;
+}
+.fast-container .testimonials .left .rafa {
+  max-width: 78%;
+  z-index: 2;
+  position: relative;
+  margin-left: 20%;
+}
+
+.fast-container .testimonials .left .grdt {
+  position: absolute;
+  left: -13%;
+  top: 30vh;
+  z-index: 0;
+}
+.fast-container .testimonials .right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.fast-container .testimonials .right h3 {
+  color: #72c694;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+}
+.fast-container .testimonials .right h5 {
+  color: #888888;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 1em 0;
+  line-height: 1.5em;
+}
+.fast-container .testimonials .right p {
+  color: #3d3d3d;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 16.5px;
+  margin: 0em 0;
+  line-height: 1.5em;
+  max-width: 75%;
+  text-align: justify;
+}
+.fast-container .bigger .metodo {
+  color: #3d3d3d;
+  font-size: 2em;
+  font-weight: 400;
+  font-family: "Red Hat Display", sans-serif;
+}
+.fast-container .bigger .testimonials .right .stidframe {
+  border-radius: 12px;
+  max-width: 75%;
+  margin-top: 2em;
+}
+
+.fast-container .btnnmp {
+  width: 50%;
+  margin: 1em auto;
+}
+.Specialid-scr {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  margin-top: 7em;
+}
+.Specialid-scr .grid-education {
+  width: 82%;
+  max-width: 1178px;
+}
+.Specialid-scr .text-informative {
+  max-width: 1260px;
+  margin: 2em auto 1.5em;
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  color: #3d3d3d;
+  font-size: 3.2em;
+  position: relative;
+  z-index: 1;
+}
+.Specialid-scr .grid-education .divfirst {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 50%;
+  justify-content: flex-start;
+  min-height: 72vh;
+}
+.Specialid-scr .grid-education .divfirst .title3 {
+  color: #5942c7;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+
+  line-height: 1.1em;
+  margin: 1em 0 0.2em 0;
+}
+.Specialid-scr .grid-education .margin-contact23 {
+  margin-top: 1.5em;
+}
+.Specialid-scr .grid-education .divfirst .gra-32 {
+  max-width: 43%;
+}
+
+.Specialid-scr .grid-education .comput34 {
+  max-width: 75%;
+  top: 0;
+  z-index: 0;
+  right: 0;
+  position: absolute;
+}
+@media (max-width: 800px) {
+  .Specialid-scr .grid-education .divfirst {
+    width: 100%;
+    max-width: 100%;
+    min-height: auto;
+  }
+  .Specialid-scr .grid-education .divfirst .title3 {
+    margin: 0em 0 0.2em 0;
+  }
+  .Specialid-scr .grid-education .divfirst .gra-32 {
+    max-width: 85%;
+  }
+  .Specialid-scr .grid-education {
+    width: 89%;
+  }
+  .Specialid-scr .grid-education .comput34 {
+    max-width: 106%;
+    position: relative;
+  }
+  .fast-container .grid-threis {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fast-container .razones .container-razones .texst {
+    margin-top: 0em;
+  }
+  .fast-container .waranted-growth {
+    max-width: 96%;
+  }
+  .fast-container .sp1 {
+    position: relative;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    right: auto;
+    top: auto;
+  }
+  .fast-container .spp22 {
+    top: 0em;
+    position: relative;
+    margin: 0em auto;
+  }
+
+  .fast-container .first .img {
+    margin-bottom: 1em;
+  }
+  .fast-container .sp2 {
+    left: 0;
+  }
+  .fast-container .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    padding-top: 3em;
+    border-radius: 30px 30px 0 0;
+    margin-top: 2.5em;
+  }
+  .fast-container .second .container-text-button .nts {
+    font-size: 26px;
+    margin-top: 1em;
+  }
+  .fast-container .second .wmn {
+    max-width: 63%;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .fast-container .btn-green {
+    margin-bottom: 0em;
+    margin-top: 1em;
+  }
+  .fast-container .personalizedmobile {
+    flex-direction: column-reverse;
+  }
+  .fast-container .second .tsxcf2 .nts {
+    text-align: center;
+  }
+  .fast-container .second .btnsmd {
+    margin: 1em auto;
+  }
+  .fast-container .second .comput2 {
+    max-width: 83%;
+  }
+  .fast-container .razones {
+    display: flex;
+    flex-direction: column;
+  }
+  .fast-container .razones .container-razones .titlesssss {
+    font-size: 2.4em;
+    max-width: 90%;
+    line-height: 1.3;
+  }
+  .fast-container .razones .container-razones .insted {
+    font-size: 1.1em;
+    margin: 0.6em 0em 1.5em;
+    max-width: 100%;
+  }
+  .fast-container .razones .container-razones .button-right {
+    background-color: #3d12e1;
+    color: #ffffff;
+    max-width: 69%;
+    margin: 0 auto 2em 0;
+  }
+  .fast-container .razones .container-razones .rznpr {
+    max-width: 75%;
+    margin-bottom: 1.3em;
+  }
+  .fast-container .whatslis {
+    flex-direction: column-reverse;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    padding: 4em 3em 2em 3em;
+  }
+  .fast-container .whatslis .content-whatsi .titlesssss {
+    font-size: 2.5em;
+    max-width: 100%;
+  }
+  .fast-container .whatslis .content-whatsi .insted {
+    font-size: 1em;
+    max-width: 100%;
+  }
+  .fast-container .whatslis .content-whatsi .mktg-ed {
+    max-width: 55%;
+    margin-top: 0em;
+  }
+  .fast-container .whatslis .content-whatsi .ing .ingenieria {
+    max-width: 52%;
+  }
+  .fast-container .whatslis .computrs {
+    max-width: 108%;
+    right: auto;
+    bottom: auto;
+    position: relative;
+    margin: 1em -15% 0em auto;
+  }
+  .fast-container .tools {
+    display: flex;
+    flex-direction: column;
+    margin: 4em 0;
+  }
+  .fast-container .tools .Herramientas {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .fast-container .tools .flexed-items {
+    align-items: center;
+    padding-left: 0;
+  }
+  .fast-container .tools .titlesssss {
+    margin: 0em auto 0.1em;
+    font-size: 2.5em;
+  }
+  .fast-container .tools .gradient {
+    margin-left: -33%;
+    margin-top: -1.2em;
+    z-index: 0;
+  }
+  .fast-container .tools .btn-purple {
+    margin: 2em 0 1em 0;
+    width: 45%;
+  }
+  .fast-container .tools .btn-green {
+    width: 45%;
+    margin-bottom: 2.5em;
+  }
+  .fast-container .testimonials {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .fast-container .testimonials .left .rafa {
+    max-width: 65%;
+    z-index: 2;
+    position: relative;
+    margin: 1em auto;
+  }
+  .fast-container .testimonials .left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fast-container .testimonials .left .grdt {
+    top: 11vh;
+  }
+  .fast-container .testimonials .right {
+    max-width: 80%;
+    max-width: 85%;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fast-container .testimonials .right h5 {
+    text-align: center;
+  }
+  .fast-container .testimonials .right p {
+    max-width: 100%;
+    text-align: justify;
+  }
+  .fast-container .bigger .testimonials .right .stidframe {
+    max-width: 100%;
+  }
+  .fast-container .bigger .metodo {
+    text-align: center;
+    max-width: 90%;
+    margin: 1.5em auto 1em;
+  }
+}
